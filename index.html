@@ -94,10 +94,19 @@ eventbrite: 19802913046      # optional (insert the alphanumeric key for Eventbr
 <p id="where">
   <strong>Where:</strong>
   {{page.address}}.
-  Get directions with
+</p>
+<iframe
+  width="600"
+  height="240"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCVCjriOnZdziOGJRl0DImyTmRBi4rdw9w
+    &q=National+Center+for+Supercomputing+Applications%2C+Urbana+IL" allowfullscreen>
+</iframe>
+  <!--Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
   <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  -->
 </p>
 {% endif %}
 
